@@ -1,0 +1,46 @@
+.nav-bar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    color: blanchedalmond;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    height: 5vh;
+    
+}
+.nav-links
+{
+    list-style: none;
+    padding: 0;
+    border-radius: 2;
+    margin-left: auto;
+    display: flex;
+}
+.welcome
+{
+    list-style: none;
+}
+.nav-links a 
+{
+list-style: none;
+ text-decoration: none;
+ color:blanchedalmond;
+ padding: 5px 10px; 
+ transition: background-color 0.5s; 
+}
+.nav-links li
+{
+    margin-left: 10px;
+}
+.nav-links a:hover
+{
+    background-color: lavender;
+    color: black;
+    border-radius: 2px;
+    border-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
